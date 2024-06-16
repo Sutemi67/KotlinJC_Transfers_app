@@ -16,7 +16,7 @@ import com.example.transfers.R
 import com.example.transfers.ui.theme.TransfersTheme
 
 @Composable
-fun MainScreen(modifier:Modifier) {
+fun MainScreen() {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
@@ -44,6 +44,6 @@ fun MainScreen(modifier:Modifier) {
 @Composable
 fun GreetingPreview() {
     TransfersTheme {
-        MainScreen(modifier = Modifier)
+        MainScreen()
     }
 }
