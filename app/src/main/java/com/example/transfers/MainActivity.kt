@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
             TransfersTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MainScreen(
-                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
